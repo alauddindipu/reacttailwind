@@ -1,4 +1,6 @@
-import Navbar from "./components/Navbar"
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 
 
 const App = () => {
@@ -11,6 +13,7 @@ bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
 
 <div className="container mx-auto px-8">
     <Navbar />
+    <Hero />
 </div>
         
     </div>
