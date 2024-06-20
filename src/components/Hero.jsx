@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
-                    <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
+                    <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
                         Alauddin Dipu
                         </h1>
                         <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500
@@ -18,9 +18,9 @@ const Hero = () => {
                 </div>
             </div>
             <div className='w-full lg:w-1/2 lg:p-8'>
-            <div className='flex justify-center'>
-                <img src={profilePic} alt="Alauddin Dipu" />
-            </div>
+                <div className='flex justify-center py-20'>
+                    <img src={profilePic} className='rounded-2xl' alt="Alauddin Dipu" />
+                </div>
             </div>
         </div>
 
